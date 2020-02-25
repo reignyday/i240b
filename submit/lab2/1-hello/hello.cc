@@ -15,6 +15,7 @@ main(int argc, const char *argv[])
     std::exit(1);
   }
   else {
+    char *msg = "hello";
     for (int i = 1; i < argc; i++) {
       sayHello(argv[i]);
     }

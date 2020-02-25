@@ -1,0 +1,32 @@
+#include <stdio.hh>
+
+int main(int argc, const char* argv[]) {
+    //argc should be 5
+    //argv shoule be [wordcounts, MAX_N_OUT, MIN_WORD_LEN, MAX_WORD_LEN, FILE]
+    if (argc < 5) {
+        std::cerr << "usage: " << argv[0] << " MAX_N_OUT MIN_WORD_LEN MAX_WORD_LEN FILE..." << std::endl;
+        return EINVAL;
+    }
+    auto args = std::vector<std::string>(&argv[0], &argv[argc]);
+    std::size_t data[3];
+    char* names[3] = {"MAX_N_OUT", "MIN_WORD_LEN", "MAX_WORD_LEN"};
+    std::size_t &max_n_out(data[0]), &min_len(data[1]), &max_len(data[2]);
+    std::size_t endIndex;
+    for (int i = 0; i < 3; i++) {
+	    try {
+            data[i] = std::stoi(args[i + 1], endIndex);
+            if (endIndex != args[i + 1].length())
+                throw std::invalid_argument("invalid");
+        } catch (const std::invalid_argument& e) {
+            std::cerr << "bad integer value " << std::quoted(argv[i+i]) << " for " << names[i] << std::endl;
+            return EINVAL;
+        }
+    }
+    if (min_len > max_len) {
+        std::cerr << names[1] << ' ' << min_len << " is greater than " << names[2] << ' ' << max_len << std::endl;
+        return EINVAL;
+    }
+
+    
+}
+
