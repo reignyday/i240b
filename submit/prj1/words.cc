@@ -1,4 +1,7 @@
 #include <stdio.hh>
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
 
 int main(int argc, const char* argv[]) {
     //argc should be 5
