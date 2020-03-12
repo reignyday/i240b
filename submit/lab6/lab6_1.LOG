@@ -1,0 +1,28 @@
+Script started on 2020-03-12 18:44:49-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="23"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rbey1@g7-22:~/i240b/submit/lab6$ ls -l *'$'*.c/./*'$'*.c[K[3P/./*'$'*echo abc 123"$HOME"[1P\"\\"'[Kecho '\''*$~'[1P\\'[1P'\$HOME\"\\*[K\ *\$HOME\"\\ *[K[1P*echo \'\ls[Kcd 4-quotingls[Kcd 4-quoting
+bash: cd: 4-quoting: No such file or directory
+rbey1@g7-22:~/i240b/submit/lab6$ cd 4-quoting[K[K[K[K[K[K[K[K[Kexercie[Kses
+rbey1@g7-22:~/i240b/submit/lab6/exercises$ cd exercises4-quotingls -l *'$'*.c[1Pcd 4-quoting
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ cd 4-quotingexercises4-quotingexercises4-quotingls -l *'$'*.c[C[C[C[C[C[C[K[K
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 '1$2'
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 'a$b'
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l *'$'*[1P*[1P*'*'*
+> dqd^C
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l *'''*[1P*[1P*[1P*"*'*"*
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 "'12"
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 "a'b"
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l *"'"*[1P"*[1P*[C[1P*'*\*'*[C*
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 '\\ab'
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l *'\'**[K[K[K[K[K[K??
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 '**'
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l ??*'\'**[4P??-??-??
+ls: unrecognized option '--??'
+Try 'ls --help' for more information.
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l --??[1P??[1P??[C[C --
+-rw-r----- 1 rbey1 rbey1 0 Mar 12 17:37 '**'
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ ls -l ?? --[K[K[K[C[C[1P ??[1P ??[1P??[C ??- ??- ??[C ??[1P??
+'**'   -l
+rbey1@g7-22:~/i240b/submit/lab6/exercises/4-quoting$ exit
+
+Script done on 2020-03-12 18:47:49-04:00 [COMMAND_EXIT_CODE="0"]
