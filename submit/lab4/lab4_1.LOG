@@ -1,0 +1,50 @@
+Script started on 2020-03-01 22:57:19-05:00 [TERM="xterm-256color" TTY="/dev/pts/13" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4$ cd ec[Kxercises [K/1-piont[K[K[K[Koint
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ ls - l
+total 592
+-rwxr-xr-x 1 rbey1 rbey1 189528 Feb 20 17:11 main
+-rw-r--r-- 1 rbey1 rbey1   1174 Feb 20 17:00 main.cc
+-rw-r--r-- 1 rbey1 rbey1 206488 Feb 20 17:11 main.o
+-rw-r--r-- 1 rbey1 rbey1    533 Feb 20 17:00 point.cc
+-rw-r--r-- 1 rbey1 rbey1    654 Feb 20 17:00 point.hh
+-rw-r--r-- 1 rbey1 rbey1 190624 Feb 20 17:11 point.o
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emac xs point[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kac s point,cc
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emacs point,cc[K[K[K.cc\
+> ^D^C
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emacs point.cc\[K
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emac  s[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs  [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cc s pi[Koint [K.hh
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ make  -f ?MAkefile
+make: ?MAkefile: No such file or directory
+make: *** No rule to make target '?MAkefile'.  Stop.
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ make -f ?MAkefile[1Pkefileakefile
+make: ?Makefile: No such file or directory
+make: *** No rule to make target '?Makefile'.  Stop.
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ make -f ?Makefile[1PMakefile[C[C[C[C/Makefile[C[C[C[C[C
+make: /Makefile: No such file or directory
+make: *** No rule to make target '/Makefile'.  Stop.
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ make -f /Makefile[C[C./Makefile[C[C[C[C[C./Makefile[C[C[C[C[C[C
+make: Nothing to be done for 'all'.
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ ./ma in
+distance from (0, 0) to (3, 4) is 5
+distance from (0, 0) to (1, 1) is 1.41421
+distance from (0, 0) to (4, 5) is 6.40312
+distance from (3, 4) to (1, 1) is 3.60555
+distance from (3, 4) to (4, 5) is 1.41421
+distance from (1, 1) to (4, 5) is 5
+
+sizeof(double) = 8
+sizeof(Point) = 16
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ ./main[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake -f ../Makefile[C[C[C[C[2P/Makefile[C[C[C[C?MakefileAkefile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs[3P point.hh
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emac s line [K.cc
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emacs line.cc[K[Khh
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emacs line.hh &
+[1] 1088588
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ emacs line.hh &[Kcc[C[Cpoint.hh &
+[2] 1088617
+rbey1@q22-29:/import/linux/home1/rbey1/i240b/submit/lab4/exercises/1-point$ exit
+
+Script done on 2020-03-02 00:26:39-05:00 [COMMAND_EXIT_CODE="0"]

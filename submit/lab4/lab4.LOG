@@ -1,0 +1,47 @@
+Script started on 2020-02-20 17:00:10-05:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+rbey1@g7-35:~/i240b/submit/lab4$ cp -` [K[Kr ~/cs240/;[Klabs/lab4/exercises .
+rbey1@g7-35:~/i240b/submit/lab4$ ./exercisesc./exercisesd./exercises ./exercises[C[1P/exercises[C[C[C[C[C[C[C[C[C[C[1Pexercises[C[C[C[C[C[C[C[C[C/1-point
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ ls -l
+total 12
+-rw-r--r-- 1 rbey1 rbey1 1174 Feb 20 17:00 main.cc
+-rw-r--r-- 1 rbey1 rbey1  533 Feb 20 17:00 point.cc
+-rw-r--r-- 1 rbey1 rbey1  654 Feb 20 17:00 point.hh
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emc[Kacs main.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs main.cc[1P.cc[1P.cc[1P.cc[1P.ccp.cco.cci.ccn.cct.ccs.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs points.cc[1P.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs point.cc[K[Khh
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ make -f ../MAkefile
+make: ../MAkefile: No such file or directory
+make: *** No rule to make target '../MAkefile'.  Stop.
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ make -f ../MAkefile[1Pkefileakefile
+g++ -MT point.o -MMD -MP -MF .deps/point.d -g -Wall -std=c++17 -c point.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ point.o main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main point.o main.o; do echo $t >>.gitignore; done
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ ./1-poimt[K[Knt
+bash: ./1-point: No such file or directory
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ ./1-point
+bash: ./1-point: No such file or directory
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ ./1-point[C[1P/1-point
+bash: /1-point: No such file or directory
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ /1-point[K[K[K[K[K[K[K[K./main
+distance from (0, 0) to (3, 4) is 5
+distance from (0, 0) to (1, 1) is 1.41421
+distance from (0, 0) to (4, 5) is 6.40312
+distance from (3, 4) to (1, 1) is 3.60555
+distance from (3, 4) to (4, 5) is 1.41421
+distance from (1, 1) to (4, 5) is 5
+
+sizeof(double) = 8
+sizeof(Point) = 16
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ line .cc
+bash: line: command not found
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ line .cc[2P./mainline .cc[K[K[K[K[K[K[K[Kemacs line.ccemacs point.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs line.ccemacs point.cc[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpoint,cc[K[K[K,[K.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs point.ccline.ccemacs point.cc
+rbey1@g7-35:~/i240b/submit/lab4/exercises/1-point$ emacs line.ccemacs point.cc[13Ppoint.cc[K[K[K[K[K[K[K[K[K[K[K[K[K[Kexit
+
+Script done on 2020-02-20 20:52:41-05:00 [COMMAND_EXIT_CODE="0"]
